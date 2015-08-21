@@ -55,7 +55,6 @@
         </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.ScopeIndent"/>
-    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="MySource.PHP.EvalObjectFactory"/>
     <!--<rule ref="MySource.PHP.GetRequestData"/>-->
     <rule ref="MySource.PHP.ReturnFunctionValue"/>
