@@ -1,0 +1,11 @@
+{
+    "name": "imagecms/coding-standard",
+    "description": "ImageCMS Coding Standard",
+    "authors": [
+        {
+            "name": "gylaandrij",
+            "email": "gyla.andrij@gmail.com"
+        }
+    ],
+    "require": {}
+}
