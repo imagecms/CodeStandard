@@ -11,10 +11,12 @@
     <exclude-pattern>*/generated-classes/*/Base/*</exclude-pattern>
     <exclude-pattern>*/generated-classes/Map/*</exclude-pattern>
     <exclude-pattern>*/application/third_party/*</exclude-pattern>
+    <exclude-pattern>*/application/libraries/elfinder/*</exclude-pattern>
     <exclude-pattern>*/vendor/*</exclude-pattern>
     <exclude-pattern>*/application/modules/shop/obf/*</exclude-pattern>
     <exclude-pattern>*/tests/*</exclude-pattern>
     <exclude-pattern>system/*</exclude-pattern>
+    <exclude-pattern>hooks/*</exclude-pattern>
  
     <arg name="extensions" value="php,js"/>
     <arg name="encoding" value="utf-8"/>
@@ -33,8 +35,10 @@
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
     <rule ref="Generic.Commenting.Todo"/>
     <rule ref="Generic.Commenting.Fixme"/>
-    <!--    <rule ref="Generic.Commenting.DocComment"/>-->
     <rule ref="Generic.ControlStructures.InlineControlStructure"/>
+    <rule ref="Generic.Debug.ClosureLinter"/>
+    <rule ref="Generic.Debug.JSHint"/>
+    <rule ref="Generic.Debug.CSSLint"/>
     <rule ref="Generic.Files.ByteOrderMark"/>
     <rule ref="Generic.Files.EndFileNoNewline"/>
     <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
@@ -57,10 +61,10 @@
     </rule>
     <rule ref="Generic.WhiteSpace.ScopeIndent"/>
     <rule ref="MySource.PHP.EvalObjectFactory"/>
-    <!--<rule ref="MySource.PHP.GetRequestData"/>-->
     <rule ref="MySource.PHP.ReturnFunctionValue"/>
     <rule ref="MySource.PHP.AjaxNullComparison"/>
     <rule ref="PEAR.ControlStructures.ControlSignature"/>
+    <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
     <rule ref="PEAR.Files.IncludingFile"/>
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
     <rule ref="PEAR.Functions.FunctionCallSignature">
@@ -105,4 +109,5 @@
         </properties>
     </rule>
     <rule ref="ImageCMS.Globals.MakeSafeGlobals"/>
+    <rule ref="Zend.Files.ClosingTag"/>
 </ruleset>
