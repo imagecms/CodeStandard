@@ -7,6 +7,9 @@
             "email": "gyla.andrij@gmail.com"
         }
     ],
+    "extra": {
+        "installer-name": "imagecms"
+    },
     "require": {
         "composer/installers": "~1.0"
     }
