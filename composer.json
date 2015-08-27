@@ -7,10 +7,12 @@
             "email": "gyla.andrij@gmail.com"
         }
     ],
+    "type": "codeigniter-module",
     "extra": {
         "installer-name": "imagecms"
     },
     "require": {
+        "squizlabs/php_codesniffer": ">=2",
         "composer/installers": "~1.0"
     }
 }
