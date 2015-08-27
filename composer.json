@@ -7,5 +7,7 @@
             "email": "gyla.andrij@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "composer/installers": "~1.0"
+    }
 }
