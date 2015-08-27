@@ -10,7 +10,7 @@
     "extra": {
         "installer-name": "imagecms",
         "installer-paths": {
-            "/application/third_party/squizlabs/php_codesniffer/CodeSniffer/Standards/ImageCMS": ["imagecms/coding-standard"]
+            "/application/third_party/squizlabs/php_codesniffer/CodeSniffer/Standards/{$name}": ["imagecms/coding-standard"]
         }
     },
     "require": {
