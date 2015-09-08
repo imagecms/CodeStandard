@@ -9,7 +9,7 @@
         }
     ],
     "extra": {
-        "installer-name": "imagecms",
+        "installer-name": "imagecms"
         
     },
     "require": {
