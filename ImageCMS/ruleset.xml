@@ -6,10 +6,8 @@
         Created with the PHP Coding Standard Generator. http://edorian.github.com/php-coding-standard-generator/#phpcs
     </description>
     
-    <exclude-pattern>*/generated-classes/Base/*</exclude-pattern>
-    <exclude-pattern>*/generated-classes/*/Map/*</exclude-pattern>
-    <exclude-pattern>*/generated-classes/*/Base/*</exclude-pattern>
-    <exclude-pattern>*/generated-classes/Map/*</exclude-pattern>
+    <exclude-pattern>*/models/Base/*</exclude-pattern>
+    <exclude-pattern>*/models/Map/*</exclude-pattern>
     <exclude-pattern>*/application/third_party/*</exclude-pattern>
     <exclude-pattern>*/application/libraries/elfinder/*</exclude-pattern>
     <exclude-pattern>*/vendor/*</exclude-pattern>
