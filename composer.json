@@ -2,6 +2,13 @@
     "name": "imagecms/coding-standard",
     "type": "coding-standard",
     "description": "ImageCMS Coding Standard",
+    "keywords": [
+        "ImageCMS",
+        "Standard",
+        "phpcs", 
+        "CodeSniffer", 
+        "coding standard"
+    ],
     "authors": [
         {
             "name": "gylaandrij",
