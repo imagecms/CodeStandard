@@ -21,6 +21,6 @@
     },
     "require": {
         "squizlabs/php_codesniffer": ">=2",
-        "composer/installers": "@dev"
+        "composer/installers": "^1.0"
     }
 }
