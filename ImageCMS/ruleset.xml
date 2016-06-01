@@ -28,6 +28,7 @@
     <arg value="spn"/>
     <arg name="colors"/>
     
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
@@ -92,6 +93,7 @@
     <rule ref="PSR1.Files.SideEffects"/>
     <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
     <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
+    <rule ref="Squiz.Arrays"/>
     <rule ref="Squiz.PHP.DisallowObEndFlush"/>
     <rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops"/>
     <rule ref="Squiz.PHP.EmbeddedPhp"/>
