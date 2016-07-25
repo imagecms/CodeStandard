@@ -57,11 +57,13 @@
     <rule ref="Generic.NamingConventions.ConstructorName"/>
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
     <rule ref="Generic.PHP.DeprecatedFunctions"/>
-    <rule ref="Generic.PHP.ForbiddenFunctions"/>
-    <properties>
-        <property name="error" value="true"/>
-        <property name="forbiddenFunctions" type="array" value="print_r=>null,my_print_r=>null,var_dump=>null,var_dumps=>null,var_dumps_exit=>null,dump=>null,dd=>null,ajax_var_dumps=>null,ajax_dd=>null,ajax_var_dumps_exit=>null"/>
-    </properties>
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="error" value="true"/>
+            <property name="forbiddenFunctions" type="array"
+                      value="print_r=>null,my_print_r=>null,var_dump=>null,var_dumps=>null,var_dumps_exit=>null,dump=>null,dd=>null,ajax_var_dumps=>null,ajax_dd=>null,ajax_var_dumps_exit=>null"/>
+        </properties>
+    </rule>
     <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>
     <rule ref="Generic.PHP.SAPIUsage"/>
     <rule ref="Generic.PHP.Syntax"/>
