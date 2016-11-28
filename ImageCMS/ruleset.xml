@@ -29,6 +29,8 @@
     <arg value="spn"/>
     <arg name="colors"/>
 
+    <rule ref="PSR2"/>
+
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
@@ -46,14 +48,12 @@
     <rule ref="Generic.Debug.JSHint"/>
     <rule ref="Generic.Debug.CSSLint"/>
     <rule ref="Generic.Files.ByteOrderMark"/>
-    <rule ref="Generic.Files.EndFileNoNewline"/>
     <rule ref="Generic.Files.LineEndings"/>
     <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
     <rule ref="Generic.Formatting.MultipleStatementAlignment"/>
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
     <rule ref="Generic.Functions.CallTimePassByReference"/>
     <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
-    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
     <rule ref="Generic.NamingConventions.ConstructorName"/>
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
     <rule ref="Generic.PHP.DeprecatedFunctions"/>
@@ -61,7 +61,7 @@
         <properties>
             <property name="error" value="true"/>
             <property name="forbiddenFunctions" type="array"
-                      value="print_r=>null,my_print_r=>null,var_dump=>null,var_dumps=>null,var_dumps_exit=>null,dump=>null,dd=>null,ajax_var_dumps=>null,ajax_dd=>null,ajax_var_dumps_exit=>null"/>
+                      value="print_r=>null,my_print_r=>null,var_dump=>null,var_dumps=>null,var_dumps_exit=>null,dump=>null,dd=>null,ajax_var_dumps=>null,ajax_dd=>null,ajax_var_dumps_exit=>null,key_exists=>array_key_exists"/>
         </properties>
     </rule>
     <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>
@@ -97,9 +97,6 @@
     </rule>
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent"/>
     <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
-    <rule ref="PSR1.Files.SideEffects"/>
-    <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
-    <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
     <rule ref="Squiz.Arrays"/>
     <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
         <properties>
@@ -122,11 +119,6 @@
     <rule ref="Squiz.Strings.DoubleQuoteUsage"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
         <severity>1</severity>
-    </rule>
-    <rule ref="Squiz.WhiteSpace.FunctionSpacing">
-        <properties>
-            <property name="spacing" value="1"/>
-        </properties>
     </rule>
     <rule ref="Squiz.WhiteSpace.LanguageConstructSpacing"/>
     <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing"/>
