@@ -20,7 +20,7 @@
         
     },
     "require": {
-        "squizlabs/php_codesniffer": "^2",
+        "squizlabs/php_codesniffer": "^2|^3",
         "composer/installers": "^1.0"
     }
 }
